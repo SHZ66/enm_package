@@ -42,7 +42,7 @@ This repo contains a Snakefile and thus all pipeline can be run using Snakemake.
 
 Snakemake will use the raw data provided under `data/raw` to generate all intermediate data and results for figure generation.
 
-Raw data could be downloaded from `https://thecellmap.org/costanzo2016/data_files/Genetic%20interaction%20profile%20similarity%20matrices.zip`
+Raw data could be downloaded from [TheCellMap](https://thecellmap.org/costanzo2016/data_files/Genetic%20interaction%20profile%20similarity%20matrices.zip)
 
 The Rmarkdown and Jupyter notebooks under `notebooks` directory can be used to create the figures in the paper. The html files for those notebooks are shared under `reports_done` folder. A rerun of snakemake pipeline will create `html` files to `reports` folder.
 
